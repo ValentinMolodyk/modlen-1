@@ -315,7 +315,7 @@ var ready = function(){
 // указываем элемент-контейнер в котором расположены блоки для динамической верстки
         itemSelector: '.item',
         isFitWidth: true,
-        columnWidth: 320,
+        columnWidth: 122,
 // указываем класс элемента являющегося блоком в нашей сетке
         singleMode: false,
 // true - если у вас все блоки одинаковой ширины
@@ -325,8 +325,9 @@ var ready = function(){
 // анимируем перестроение блоков
         animationOptions: {
             queue: false,
-            duration: 500
-        }
+            duration: 300
+        },
+      "gutter": 55
 // опции анимации - очередь и продолжительность анимации
     });
 //masonry
