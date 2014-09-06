@@ -335,8 +335,9 @@ var ready = function(){
         $('#container').masonry({
 // указываем элемент-контейнер в котором расположены блоки для динамической верстки
             itemSelector: '.item',
+            gutter:30,
             isFitWidth: true,
-            columnWidth: 300,
+            columnWidth: 341,
 // указываем класс элемента являющегося блоком в нашей сетке
             singleMode: false,
 // true - если у вас все блоки одинаковой ширины
