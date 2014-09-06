@@ -311,32 +311,32 @@ var ready = function(){
             parent.find('label').removeClass(wrongLabel);
         }
     });
-    $('#container').masonry({
-// указываем элемент-контейнер в котором расположены блоки для динамической верстки
-        itemSelector: '.item',
-        isFitWidth: true,
-        columnWidth: 122,
-// указываем класс элемента являющегося блоком в нашей сетке
-        singleMode: false,
-// true - если у вас все блоки одинаковой ширины
-        isResizable: true,
-// перестраивает блоки при изменении размеров окна
-        isAnimated: true,
-// анимируем перестроение блоков
-        animationOptions: {
-            queue: false,
-            duration: 300
-        },
-      "gutter": 55
-// опции анимации - очередь и продолжительность анимации
-    });
+//    $('#container').masonry({
+//// указываем элемент-контейнер в котором расположены блоки для динамической верстки
+//        itemSelector: '.item',
+//        isFitWidth: true,
+//        columnWidth: 122,
+//// указываем класс элемента являющегося блоком в нашей сетке
+//        singleMode: false,
+//// true - если у вас все блоки одинаковой ширины
+//        isResizable: true,
+//// перестраивает блоки при изменении размеров окна
+//        isAnimated: true,
+//// анимируем перестроение блоков
+//        animationOptions: {
+//            queue: false,
+//            duration: 300
+//        },
+//      "gutter": 55
+//// опции анимации - очередь и продолжительность анимации
+//    });
 //masonry
     $(window).load(function(){
         $('#container').masonry({
 // указываем элемент-контейнер в котором расположены блоки для динамической верстки
             itemSelector: '.item',
             isFitWidth: true,
-            columnWidth: 320,
+            columnWidth: 300,
 // указываем класс элемента являющегося блоком в нашей сетке
             singleMode: false,
 // true - если у вас все блоки одинаковой ширины
@@ -345,7 +345,7 @@ var ready = function(){
             isAnimated: true,
 // анимируем перестроение блоков
             animationOptions: {
-                queue: false,
+                queue: true,
                 duration: 500
             }
 // опции анимации - очередь и продолжительность анимации
