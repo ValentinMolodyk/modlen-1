@@ -13,7 +13,7 @@
 
 <div class="processing-order__wrap">
   <div class="order-info" id="">
-    <div class="box box_bt">
+    <div class="box box_bt mar_auto">
       <%@orders.each do |order|%>
       <%= render partial: 'order_processing', locals: {order: order} %>
       <%end if @orders%>
