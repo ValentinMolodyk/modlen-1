@@ -47,7 +47,7 @@
         <entry file="file://$PROJECT_DIR$/config/initializers/devise.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.13621622" vertical-offset="0" max-vertical-offset="4752">
-              <caret line="7" column="152" selection-start-line="7" selection-start-column="152" selection-end-line="7" selection-end-column="152" />
+              <caret line="7" column="19" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -829,7 +829,7 @@
     <entry file="file://$PROJECT_DIR$/config/initializers/devise.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.13621622" vertical-offset="0" max-vertical-offset="4752">
-          <caret line="7" column="152" selection-start-line="7" selection-start-column="152" selection-end-line="7" selection-end-column="152" />
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="19" />
           <folding />
         </state>
       </provider>
