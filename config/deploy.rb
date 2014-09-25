@@ -1,5 +1,5 @@
 # config valid only for Capistrano 3.1
-lock '3.2.1'
+lock '3.1.0'
 
 
 # Default branch is :master
@@ -32,7 +32,7 @@ lock '3.2.1'
 # Default value for keep_releases is 5
 # set :keep_releases, 5
 set :application, 'rhythmicgymnasticsdress.com'
-set :repo_url, 'https://github.com/romabelka/modlen.git'
+set :repo_url, 'git@github.com:romabelka/modlen.git'
 set :deploy_to, '/home/deploy/rhythmicgymnasticsdress.com'
 
 set :linked_files, %w{config/database.yml}
