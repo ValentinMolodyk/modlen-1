@@ -1,6 +1,6 @@
 # config valid only for Capistrano 3.1
 lock '3.1.0'
-#require 'rvm/capistrano'
+require 'rvm/capistrano'
 
 
 # Default branch is :master
