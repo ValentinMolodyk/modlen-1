@@ -28,4 +28,4 @@ production:
   pool: 5
   username: root
   password: modlenSQLPass
-  host: localhost
+  host: 178.62.234.82
