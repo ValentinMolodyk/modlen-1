@@ -47,13 +47,15 @@ end
 gem 'omniauth-facebook'
 gem 'paypal-sdk-rest'
 
-gem 'capistrano', '~> 3.1.0'
+gem 'capistrano', '~> 3.2.0'
 gem 'capistrano-bundler', '~> 1.1.2'
 gem 'capistrano-rails', '~> 1.1.1'
 gem 'rvm1-capistrano3', require: false
+=begin
 group :production do
   gem 'mysql2'
 end
+=end
 
 # Add this if you're using rbenv
 # gem 'capistrano-rbenv', github: "capistrano/rbenv"
