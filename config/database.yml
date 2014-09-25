@@ -24,7 +24,7 @@ production:
   adapter: mysql2
   encoding: utf8
   reconnect: false
-  database: modlen_production
+  database: modlen_db
   pool: 5
   username: root
   password: modlenSQLPass

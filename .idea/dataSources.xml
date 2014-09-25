@@ -10,7 +10,7 @@
     <data-source source="LOCAL" name="Rails modlenRails: production" uuid="5b14df6c-2158-4eef-8f0d-0f4c95962d57">
       <driver-ref>mysql</driver-ref>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://127.0.0.1/modlen_production</jdbc-url>
+      <jdbc-url>jdbc:mysql://127.0.0.1/modlen_db</jdbc-url>
       <user-name>root</user-name>
       <user-password>dfc7dfc5dfcedfc6dfcfdfc4dff9dffbdfe6dffadfcbdfd9dfd9</user-password>
       <libraries />
