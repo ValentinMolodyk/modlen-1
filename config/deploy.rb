@@ -1,6 +1,5 @@
 # config valid only for Capistrano 3.1
 lock '3.1.0'
-require 'rvm/capistrano'
 
 
 # Default branch is :master
@@ -33,8 +32,8 @@ require 'rvm/capistrano'
 # Default value for keep_releases is 5
 # set :keep_releases, 5
 #set :rvm_type, :user                     # Defaults to: :auto
-set :rvm_ruby_version, '2.0.0p576'      # Defaults to: 'default'
-
+#set :rvm_ruby_version, '2.0.0p576'      # Defaults to: 'default'
+set :rvm1_ruby_version, "2.0.0p576"
 set :application, 'rhythmicgymnasticsdress.com'
 set :repo_url, 'git@github.com:romabelka/modlen.git'
 set :deploy_to, '/home/deploy/rhythmicgymnasticsdress.com'
