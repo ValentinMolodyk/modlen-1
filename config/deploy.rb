@@ -1,5 +1,6 @@
 # config valid only for Capistrano 3.1
 lock '3.1.0'
+require 'rvm/capistrano'
 
 
 # Default branch is :master
@@ -39,6 +40,7 @@ set :linked_files, %w{config/database.yml}
 set :linked_dirs, %w{bin log tmp/pids tmp/cache tmp/sockets vendor/bundle public/system}
 set :branch, fetch(:branch, "main")
 set :env, fetch(:env, "production")
+
 namespace :deploy do
 
   desc 'Restart application'
