@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140906144622) do
+ActiveRecord::Schema.define(version: 20141005190148) do
 
   create_table "active_admin_comments", force: true do |t|
     t.string   "namespace"
@@ -52,7 +52,7 @@ ActiveRecord::Schema.define(version: 20140906144622) do
   create_table "currencies", force: true do |t|
     t.string   "name"
     t.string   "code"
-    t.decimal  "rate"
+    t.decimal  "rate",       precision: 10, scale: 10
     t.datetime "created_at"
     t.datetime "updated_at"
   end
