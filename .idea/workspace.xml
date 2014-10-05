@@ -23,21 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="20140826114915_create_currencies.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/migrate/20140826114915_create_currencies.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.6" vertical-offset="0" max-vertical-offset="306">
-              <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="20141005190148_change_currency.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/db/migrate/20141005190148_change_currency.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.1399689" vertical-offset="0" max-vertical-offset="643">
-              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.05598756" vertical-offset="0" max-vertical-offset="643">
+              <caret line="2" column="63" selection-start-line="2" selection-start-column="63" selection-end-line="2" selection-end-column="63" />
               <folding />
             </state>
           </provider>
@@ -102,8 +92,8 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/public/assets/manifest-83c0a634525d0e3242ace8b2038126b0.json" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/start.css.scss" />
-        <option value="$PROJECT_DIR$/db/migrate/20141005190148_change_currency.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20140826114915_create_currencies.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20141005190148_change_currency.rb" />
       </list>
     </option>
   </component>
@@ -785,8 +775,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20141005190148_change_currency.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1399689" vertical-offset="0" max-vertical-offset="643">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.05598756" vertical-offset="0" max-vertical-offset="643">
+          <caret line="2" column="63" selection-start-line="2" selection-start-column="63" selection-end-line="2" selection-end-column="63" />
           <folding />
         </state>
       </provider>
