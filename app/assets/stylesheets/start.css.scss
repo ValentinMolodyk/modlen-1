@@ -517,8 +517,8 @@ pre code {
 
 @font-face {
     font-family: 'FontAwesome';
-    src: url("fonts/fontawesome-webfont.eot?");
-    src: url("fonts/fontawesome-webfont.eot??#iefix") format('embedded-opentype'), url("fonts/fontawesome-webfont.svg") format('svg'), url("fonts/fontawesome-webfont.woff") format('woff'), url("fonts/fontawesome-webfont.ttf") format('truetype');
+    src: image_url("fonts/fontawesome-webfont.eot?");
+    src: image_url("fonts/fontawesome-webfont.eot??#iefix") format('embedded-opentype'), image_url("fonts/fontawesome-webfont.svg") format('svg'), image_url("fonts/fontawesome-webfont.woff") format('woff'), image_url("fonts/fontawesome-webfont.ttf") format('truetype');
     font-weight: 400;
     font-style: normal
 }
@@ -2803,7 +2803,7 @@ body * img::-webkit-selection {
 }
 
 .foot {
-    background: #fff url("img/texture/footer-back-test.jpg") 0 0 no-repeat
+    background: #fff image_url("img/texture/footer-back-test.jpg") 0 0 no-repeat
 }
 
 .foot__wrap {
@@ -2941,7 +2941,7 @@ body * img::-webkit-selection {
 
 @font-face {
     font-family: 'GrossKunst';
-    src: url("fonts_last/GrossKunst_display/fonts/GrossKunst_display.eot");
+    src: image_url("fonts_last/GrossKunst_display/fonts/GrossKunst_display.eot");
     src: local('☺'), image_url("fonts_last/GrossKunst_display/fonts/GrossKunst_display.woff") format('woff'),image_url("fonts_last/GrossKunst_display/fonts/GrossKunst_display.ttf") format('truetype'), image_url("fonts_last/GrossKunst_display/fonts/GrossKunst_display.svg") format('svg');
     font-weight: 400;
     font-style: normal
@@ -2949,48 +2949,48 @@ body * img::-webkit-selection {
 
 @font-face {
     font-family: 'PT_Sans-Narrow-Web-Bold';
-    src: url("fonts_last/PT_Sans-Narrow-Web-Bold/fonts/PT_Sans-Narrow-Web-Bold.eot");
-    src: local('☺'), url("fonts_last/PT_Sans-Narrow-Web-Bold/fonts/PT_Sans-Narrow-Web-Bold.woff") format('woff'), url("fonts_last/PT_Sans-Narrow-Web-Bold/fonts/PT_Sans-Narrow-Web-Bold.ttf") format('truetype'), url("fonts_last/PT_Sans-Narrow-Web-Bold/fonts/PT_Sans-Narrow-Web-Bold.svg") format('svg');
+    src: image_url("fonts_last/PT_Sans-Narrow-Web-Bold/fonts/PT_Sans-Narrow-Web-Bold.eot");
+    src: local('☺'), image_url("fonts_last/PT_Sans-Narrow-Web-Bold/fonts/PT_Sans-Narrow-Web-Bold.woff") format('woff'), image_url("fonts_last/PT_Sans-Narrow-Web-Bold/fonts/PT_Sans-Narrow-Web-Bold.ttf") format('truetype'), image_url("fonts_last/PT_Sans-Narrow-Web-Bold/fonts/PT_Sans-Narrow-Web-Bold.svg") format('svg');
     font-weight: 400;
     font-style: normal
 }
 
 @font-face {
     font-family: 'Conv_PT_Sans-Narrow-Web-Regular';
-    src: url("fonts_last/PT_Sans-Narrow-Web-Regular/fonts/PT_Sans-Narrow-Web-Regular.eot");
-    src: local('☺'), url("fonts_last/PT_Sans-Narrow-Web-Regular/fonts/PT_Sans-Narrow-Web-Regular.woff") format('woff'), url("fonts_last/PT_Sans-Narrow-Web-Regular/fonts/PT_Sans-Narrow-Web-Regular.ttf") format('truetype'), url("fonts_last/PT_Sans-Narrow-Web-Regular/fonts/PT_Sans-Narrow-Web-Regular.svg") format('svg');
+    src: image_url("fonts_last/PT_Sans-Narrow-Web-Regular/fonts/PT_Sans-Narrow-Web-Regular.eot");
+    src: local('☺'), image_url("fonts_last/PT_Sans-Narrow-Web-Regular/fonts/PT_Sans-Narrow-Web-Regular.woff") format('woff'), image_url("fonts_last/PT_Sans-Narrow-Web-Regular/fonts/PT_Sans-Narrow-Web-Regular.ttf") format('truetype'), image_url("fonts_last/PT_Sans-Narrow-Web-Regular/fonts/PT_Sans-Narrow-Web-Regular.svg") format('svg');
     font-weight: 400;
     font-style: normal
 }
 
 @font-face {
     font-family: 'trebuchet_msregular';
-    src: url("fonts_last/TrebuchetMS/fonts/Trebuchet MS.eot");
-    src: local('☺'), url("fonts_last/TrebuchetMS/fonts/Trebuchet MS.woff") format('woff'), url("fonts_last/TrebuchetMS/fonts/Trebuchet MS.ttf") format('truetype'), url("fonts_last/TrebuchetMS/fonts/Trebuchet MS.svg") format('svg');
+    src: image_url("fonts_last/TrebuchetMS/fonts/Trebuchet MS.eot");
+    src: local('☺'), image_url("fonts_last/TrebuchetMS/fonts/Trebuchet MS.woff") format('woff'), image_url("fonts_last/TrebuchetMS/fonts/Trebuchet MS.ttf") format('truetype'), image_url("fonts_last/TrebuchetMS/fonts/Trebuchet MS.svg") format('svg');
     font-weight: 400;
     font-style: normal
 }
 
 @font-face {
     font-family: 'trebuchet_msbold';
-    src: url("fonts_last/Trebuchet_MS_Bold/fonts/Trebuchet MS Bold.eot");
-    src: local('☺'), url("fonts_last/Trebuchet_MS_Bold/fonts/Trebuchet MS Bold.woff") format('woff'), url("fonts_last/Trebuchet_MS_Bold/fonts/Trebuchet MS Bold.ttf") format('truetype'), url("fonts_last/Trebuchet_MS_Bold/fonts/Trebuchet MS Bold.svg") format('svg');
+    src: image_url("fonts_last/Trebuchet_MS_Bold/fonts/Trebuchet MS Bold.eot");
+    src: local('☺'), image_url("fonts_last/Trebuchet_MS_Bold/fonts/Trebuchet MS Bold.woff") format('woff'), image_url("fonts_last/Trebuchet_MS_Bold/fonts/Trebuchet MS Bold.ttf") format('truetype'), image_url("fonts_last/Trebuchet_MS_Bold/fonts/Trebuchet MS Bold.svg") format('svg');
     font-weight: 400;
     font-style: normal
 }
 
 @font-face {
     font-family: 'trebuchet_msbold_italic';
-    src: url("fonts_last/TrebuchetMS_Bold_Italic/fonts/Trebuchet MS Bold Italic.eot");
-    src: local('☺'), url("fonts_last/TrebuchetMS_Bold_Italic/fonts/Trebuchet MS Bold Italic.woff") format('woff'), url("fonts_last/TrebuchetMS_Bold_Italic/fonts/Trebuchet MS Bold Italic.ttf") format('truetype'), url("fonts_last/TrebuchetMS_Bold_Italic/fonts/Trebuchet MS Bold Italic.svg") format('svg');
+    src: image_url("fonts_last/TrebuchetMS_Bold_Italic/fonts/Trebuchet MS Bold Italic.eot");
+    src: local('☺'), image_url("fonts_last/TrebuchetMS_Bold_Italic/fonts/Trebuchet MS Bold Italic.woff") format('woff'), image_url("fonts_last/TrebuchetMS_Bold_Italic/fonts/Trebuchet MS Bold Italic.ttf") format('truetype'), image_url("fonts_last/TrebuchetMS_Bold_Italic/fonts/Trebuchet MS Bold Italic.svg") format('svg');
     font-weight: 400;
     font-style: normal
 }
 
 @font-face {
     font-family: 'trebuchet_msitalic';
-    src: url("fonts_last/TrebuchetMS_Italic/fonts/Trebuchet MS Italic.eot");
-    src: local('☺'), url("fonts_last/TrebuchetMS_Italic/fonts/Trebuchet MS Italic.woff") format('woff'), url("fonts_last/TrebuchetMS_Italic/fonts/Trebuchet MS Italic.ttf") format('truetype'), url("fonts_last/TrebuchetMS_Italic/fonts/Trebuchet MS Italic.svg") format('svg');
+    src: image_url("fonts_last/TrebuchetMS_Italic/fonts/Trebuchet MS Italic.eot");
+    src: local('☺'), image_url("fonts_last/TrebuchetMS_Italic/fonts/Trebuchet MS Italic.woff") format('woff'), image_url("fonts_last/TrebuchetMS_Italic/fonts/Trebuchet MS Italic.ttf") format('truetype'), image_url("fonts_last/TrebuchetMS_Italic/fonts/Trebuchet MS Italic.svg") format('svg');
     font-weight: 400;
     font-style: normal
 }
@@ -2998,7 +2998,7 @@ body * img::-webkit-selection {
 .like-this__heart {
     color: #000;
     text-decoration: none;
-    background: url("img/icon/like.svg") -27px 0 no-repeat;
+    background: image_url("img/icon/like.svg") -27px 0 no-repeat;
     -webkit-background-size: 200% auto;
     background-size: 200% auto;
     width: 27px;
@@ -3220,7 +3220,7 @@ body * img::-webkit-selection {
 .summary__img {
     width: 215px;
     height: 29px;
-    background: url("img/icon/arrow-long.svg") left center no-repeat;
+    background: image_url("img/icon/arrow-long.svg") left center no-repeat;
     -webkit-background-size: 100% auto;
     background-size: 100% auto;
     text-align: center;
@@ -3272,7 +3272,7 @@ body * img::-webkit-selection {
 
 .price__like-off {
     text-decoration: none;
-    background: url("img/icon/like.svg") 100% 0 no-repeat;
+    background: image_url("img/icon/like.svg") 100% 0 no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
     display: block;
@@ -3287,7 +3287,7 @@ body * img::-webkit-selection {
 
 .price__like-on {
     text-decoration: none;
-    background: url("img/icon/like.svg") 0 0 no-repeat;
+    background: image_url("img/icon/like.svg") 0 0 no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
     display: block;
@@ -3423,7 +3423,7 @@ body * img::-webkit-selection {
 
 .option-list__arrow-up {
     display: block;
-    background: url("img/icon/arrow-up-crystal.png");
+    background: image_url("img/icon/arrow-up-crystal.png");
     width: 12px;
     height: 10px
 }
@@ -3434,7 +3434,7 @@ body * img::-webkit-selection {
 
 .option-list__arrow-down {
     display: block;
-    background: url("img/icon/arrow-down-crystal.png");
+    background: image_url("img/icon/arrow-down-crystal.png");
     width: 12px;
     height: 10px
 }
@@ -3700,7 +3700,7 @@ body * img::-webkit-selection {
 
 .item__rotator {
     vertical-align: bottom;
-    background: url("img/icon/rotator.svg") no-repeat;
+    background: image_url("img/icon/rotator.svg") no-repeat;
     height: 23px;
     width: 21%
 }
@@ -3716,7 +3716,7 @@ body * img::-webkit-selection {
 
 .item__like-off {
     text-decoration: none;
-    background: url("img/icon/like.svg") 100% 0 no-repeat;
+    background: image_url("img/icon/like.svg") 100% 0 no-repeat;
     -webkit-background-size: 200% auto;
     background-size: 200% auto;
     vertical-align: bottom;
@@ -3730,7 +3730,7 @@ body * img::-webkit-selection {
 
 .item__like-on {
     text-decoration: none;
-    background: url("img/icon/like.svg") 0 0 no-repeat;
+    background: image_url("img/icon/like.svg") 0 0 no-repeat;
     -webkit-background-size: 200% auto;
     background-size: 200% auto;
     vertical-align: bottom;
@@ -3802,7 +3802,7 @@ body * img::-webkit-selection {
     position: absolute;
     width: 130px;
     height: 130px;
-    background: url("img/icon/stock.png") no-repeat;
+    background: image_url("img/icon/stock.png") no-repeat;
     top: 0;
     right: 0
 }
@@ -4011,7 +4011,7 @@ body * img::-webkit-selection {
 
 .order__like-off {
     text-decoration: none;
-    background: url("img/icon/like.svg") 100% 0 no-repeat;
+    background: image_url("img/icon/like.svg") 100% 0 no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
     display: block;
@@ -4026,7 +4026,7 @@ body * img::-webkit-selection {
 
 .order__like-on {
     text-decoration: none;
-    background: url("img/icon/like.svg") 0 0 no-repeat;
+    background: image_url("img/icon/like.svg") 0 0 no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
     display: block;
@@ -4075,7 +4075,7 @@ body * img::-webkit-selection {
 .order__rotator {
     width: 35px;
     height: 19px;
-    background: url("img/icon/rotator.svg");
+    background: image_url("img/icon/rotator.svg");
     -webkit-background-size: 35px 19px;
     background-size: 35px 19px
 }
@@ -4452,7 +4452,7 @@ body * img::-webkit-selection {
     height: 9px;
     right: 106px;
     top: 8px;
-    background: url("img/icon/eye.png")
+    background: image_url("img/icon/eye.png")
 }
 
 .input-wrap__eye:hover {
@@ -4552,7 +4552,7 @@ body * img::-webkit-selection {
 }
 
 .popup-sign__img-wrap {
-    background: url("img/texture/lenta-2_perevernuta.jpg") center -50px no-repeat;
+    background: image_url("img/texture/lenta-2_perevernuta.jpg") center -50px no-repeat;
     -webkit-background-size: 100% auto;
     background-size: 100% auto;
     height: 77px
@@ -5424,7 +5424,7 @@ body * img::-webkit-selection {
 }
 
 .size-list__arrow {
-    background: url("img/icon/arrow.svg") no-repeat center center;
+    background: image_url("img/icon/arrow.svg") no-repeat center center;
     -webkit-background-size: cover;
     background-size: cover;
     display: block;
@@ -5760,7 +5760,7 @@ body * img::-webkit-selection {
 .info__another-arrow {
     width: 140px;
     height: 22px;
-    background: url("img/icon/arrow-long.svg") left center no-repeat;
+    background: image_url("img/icon/arrow-long.svg") left center no-repeat;
     -webkit-background-size: 100% auto;
     background-size: 100% auto;
     text-align: center;
@@ -6239,7 +6239,7 @@ input[type=radio].deadline-radio:checked + label.deadline-label:before {
 .payment__bank-card {
     height: 210px;
     margin: 44px 0 0;
-    background: url("img/content/bank-card@2x.jpg") -16px 0 no-repeat;
+    background: image_url("img/content/bank-card@2x.jpg") -16px 0 no-repeat;
     -webkit-background-size: 290px auto;
     background-size: 290px auto
 }
@@ -6506,13 +6506,13 @@ input[type=radio].deadline-radio:checked + label.deadline-label:before {
 }
 
 .method-list__link_visa {
-    background: url("img/icon/visa.png") no-repeat 13px 9px;
+    background: image_url("img/icon/visa.png") no-repeat 13px 9px;
     -webkit-background-size: 75% auto;
     background-size: 75% auto
 }
 
 .method-list__link_paypal {
-    background: url("img/icon/paypall.png") no-repeat 14px 5px
+    background: image_url("img/icon/paypall.png") no-repeat 14px 5px
 }
 
 .method-list__link_paypal, .method-list__link_west {
@@ -6521,7 +6521,7 @@ input[type=radio].deadline-radio:checked + label.deadline-label:before {
 }
 
 .method-list__link_west {
-    background: url("img/icon/western.png") no-repeat 13px 6px
+    background: image_url("img/icon/western.png") no-repeat 13px 6px
 }
 
 .method-list__link_lh {
@@ -6807,7 +6807,7 @@ input[type=radio].deadline-radio:checked + label.deadline-label:before {
 .property__next-arrow {
     width: 103px;
     height: 23px;
-    background: url("img/icon/arrow-long.svg") left center no-repeat;
+    background: image_url("img/icon/arrow-long.svg") left center no-repeat;
     -webkit-background-size: 100% auto;
     background-size: 100% auto;
     vertical-align: middle;
@@ -7131,7 +7131,7 @@ input[type=radio].deadline-radio:checked + label.deadline-label:before {
 }
 
 .share__fb-icon {
-    background: url("img/icon/facebook.svg") center center no-repeat;
+    background: image_url("img/icon/facebook.svg") center center no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
     width: 15px;
@@ -7408,7 +7408,7 @@ input[type=radio].deadline-radio:checked + label.deadline-label:before {
 }
 
 .breadcrumb__arrow {
-    background: url("img/icon/arrow.svg") center 0 no-repeat;
+    background: image_url("img/icon/arrow.svg") center 0 no-repeat;
     -webkit-background-size: 60% 100%;
     background-size: 60% 100%;
     width: 22px;
@@ -7603,7 +7603,7 @@ input[type=radio].deadline-radio:checked + label.deadline-label:before {
     width: 92%;
     height: 100px;
     margin-left: 4%;
-    background-image: url("img/texture/Spring-2_spam-1.jpg")
+    background-image: image_url("img/texture/Spring-2_spam-1.jpg")
 }
 
 .element-2 {
@@ -7612,7 +7612,7 @@ input[type=radio].deadline-radio:checked + label.deadline-label:before {
     width: 85.8%;
     height: 68px;
     margin: -84px 0 0 7.1%;
-    background-image: url("img/texture/Spring-2_spam-2blur(2).jpg")
+    background-image: image_url("img/texture/Spring-2_spam-2blur(2).jpg")
 }
 
 .field-1 {
@@ -7693,7 +7693,7 @@ input[type=radio].deadline-radio:checked + label.deadline-label:before {
 }
 a.small_cart {
   vertical-align: bottom;
-  background: url("img/icon/small_cart.png") no-repeat;
+  background: image_url("img/icon/small_cart.png") no-repeat;
   height: 30px;
   width: 30px;
   display: inline-block;
