@@ -27,9 +27,16 @@
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/start.css.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.5542522" vertical-offset="136863" max-vertical-offset="138690">
-              <caret line="7614" column="59" selection-start-line="7614" selection-start-column="59" selection-end-line="7614" selection-end-column="59" />
+              <caret line="7614" column="22" selection-start-line="7614" selection-start-column="22" selection-end-line="7614" selection-end-column="22" />
               <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Spring-2_spam-2blur.jpg" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/images/img/texture/Spring-2_spam-2blur.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
@@ -561,13 +568,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/orders/thanks.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9138514" vertical-offset="3" max-vertical-offset="663">
-          <caret line="32" column="63" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/variant.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
@@ -921,10 +921,15 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/images/img/texture/Spring-2_spam-2blur.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/start.css.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5542522" vertical-offset="136863" max-vertical-offset="138690">
-          <caret line="7614" column="59" selection-start-line="7614" selection-start-column="59" selection-end-line="7614" selection-end-column="59" />
+          <caret line="7614" column="22" selection-start-line="7614" selection-start-column="22" selection-end-line="7614" selection-end-column="22" />
           <folding />
         </state>
       </provider>
