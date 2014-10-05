@@ -2552,7 +2552,7 @@ body * img::-webkit-selection {
 
 .head__theme {
     height: 6px;
-    background: url("img/texture/head-back.jpg") center center no-repeat;
+    background:   image_url("img/texture/head-back.jpg") center center no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
     border-bottom-left-radius: 7px;
@@ -2803,7 +2803,7 @@ body * img::-webkit-selection {
 }
 
 .foot {
-    background: #fff url("img/texture/footer-back-test.jpg") 0 0 no-repeat
+    background: #fff   image_url("img/texture/footer-back-test.jpg") 0 0 no-repeat
 }
 
 .foot__wrap {
@@ -2949,7 +2949,7 @@ body * img::-webkit-selection {
 
 @font-face {
     font-family: 'PT_Sans-Narrow-Web-Bold';
-    src: url("fonts_last/PT_Sans-Narrow-Web-Bold/fonts/PT_Sans-Narrow-Web-Bold.eot");
+    src: image_url("fonts_last/PT_Sans-Narrow-Web-Bold/fonts/PT_Sans-Narrow-Web-Bold.eot");
     src: local('☺'), image_url("fonts_last/PT_Sans-Narrow-Web-Bold/fonts/PT_Sans-Narrow-Web-Bold.woff") format('woff'), image_url("fonts_last/PT_Sans-Narrow-Web-Bold/fonts/PT_Sans-Narrow-Web-Bold.ttf") format('truetype'), image_url("fonts_last/PT_Sans-Narrow-Web-Bold/fonts/PT_Sans-Narrow-Web-Bold.svg") format('svg');
     font-weight: 400;
     font-style: normal
@@ -2965,32 +2965,32 @@ body * img::-webkit-selection {
 
 @font-face {
     font-family: 'trebuchet_msregular';
-    src: url("fonts_last/TrebuchetMS/fonts/Trebuchet MS.eot");
-    src: local('☺'), url("fonts_last/TrebuchetMS/fonts/Trebuchet MS.woff") format('woff'), url("fonts_last/TrebuchetMS/fonts/Trebuchet MS.ttf") format('truetype'), url("fonts_last/TrebuchetMS/fonts/Trebuchet MS.svg") format('svg');
+    src: image_url("fonts_last/TrebuchetMS/fonts/Trebuchet_MS.eot");
+    src: local('☺'), image_url("fonts_last/TrebuchetMS/fonts/Trebuchet_MS.woff") format('woff'), image_url("fonts_last/TrebuchetMS/fonts/Trebuchet_MS.ttf") format('truetype'), image_url("fonts_last/TrebuchetMS/fonts/Trebuchet_MS.svg") format('svg');
     font-weight: 400;
     font-style: normal
 }
 
 @font-face {
     font-family: 'trebuchet_msbold';
-    src: url("fonts_last/Trebuchet_MS_Bold/fonts/Trebuchet MS Bold.eot");
-    src: local('☺'), url("fonts_last/Trebuchet_MS_Bold/fonts/Trebuchet MS Bold.woff") format('woff'), url("fonts_last/Trebuchet_MS_Bold/fonts/Trebuchet MS Bold.ttf") format('truetype'), url("fonts_last/Trebuchet_MS_Bold/fonts/Trebuchet MS Bold.svg") format('svg');
+    src: image_url("fonts_last/Trebuchet_MS_Bold/fonts/Trebuchet_MS_Bold.eot");
+    src: local('☺'), image_url("fonts_last/Trebuchet_MS_Bold/fonts/Trebuchet_MS_Bold.woff") format('woff'), image_url("fonts_last/Trebuchet_MS_Bold/fonts/Trebuchet_MS_Bold.ttf") format('truetype'), image_url("fonts_last/Trebuchet_MS_Bold/fonts/Trebuchet_MS_Bold.svg") format('svg');
     font-weight: 400;
     font-style: normal
 }
 
 @font-face {
     font-family: 'trebuchet_msbold_italic';
-    src: url("fonts_last/TrebuchetMS_Bold_Italic/fonts/Trebuchet MS Bold Italic.eot");
-    src: local('☺'), url("fonts_last/TrebuchetMS_Bold_Italic/fonts/Trebuchet MS Bold Italic.woff") format('woff'), url("fonts_last/TrebuchetMS_Bold_Italic/fonts/Trebuchet MS Bold Italic.ttf") format('truetype'), url("fonts_last/TrebuchetMS_Bold_Italic/fonts/Trebuchet MS Bold Italic.svg") format('svg');
+    src: image_url("fonts_last/TrebuchetMS_Bold_Italic/fonts/Trebuchet_MS_Bold_Italic.eot");
+    src: local('☺'), image_url("fonts_last/TrebuchetMS_Bold_Italic/fonts/Trebuchet_MS_Bold_Italic.woff") format('woff'), image_url("fonts_last/TrebuchetMS_Bold_Italic/fonts/Trebuchet_MS_Bold_Italic.ttf") format('truetype'), image_url("fonts_last/TrebuchetMS_Bold_Italic/fonts/Trebuchet_MS_Bold_Italic.svg") format('svg');
     font-weight: 400;
     font-style: normal
 }
 
 @font-face {
     font-family: 'trebuchet_msitalic';
-    src: url("fonts_last/TrebuchetMS_Italic/fonts/Trebuchet MS Italic.eot");
-    src: local('☺'), url("fonts_last/TrebuchetMS_Italic/fonts/Trebuchet MS Italic.woff") format('woff'), url("fonts_last/TrebuchetMS_Italic/fonts/Trebuchet MS Italic.ttf") format('truetype'), url("fonts_last/TrebuchetMS_Italic/fonts/Trebuchet MS Italic.svg") format('svg');
+    src: image_url("fonts_last/TrebuchetMS_Italic/fonts/Trebuchet_MS_Italic.eot");
+    src: local('☺'), image_url("fonts_last/TrebuchetMS_Italic/fonts/Trebuchet_MS_Italic.woff") format('woff'), image_url("fonts_last/TrebuchetMS_Italic/fonts/Trebuchet_MS_Italic.ttf") format('truetype'), image_url("fonts_last/TrebuchetMS_Italic/fonts/Trebuchet_MS_Italic.svg") format('svg');
     font-weight: 400;
     font-style: normal
 }
@@ -4552,7 +4552,7 @@ body * img::-webkit-selection {
 }
 
 .popup-sign__img-wrap {
-    background: url("img/texture/lenta-2_perevernuta.jpg") center -50px no-repeat;
+    background:  image_url("img/texture/lenta-2_perevernuta.jpg") center -50px no-repeat;
     -webkit-background-size: 100% auto;
     background-size: 100% auto;
     height: 77px
@@ -5424,7 +5424,7 @@ body * img::-webkit-selection {
 }
 
 .size-list__arrow {
-    background: image_url("img/icon/arrow.svg") no-repeat center center;
+    background:  image_url("img/icon/arrow.svg") no-repeat center center;
     -webkit-background-size: cover;
     background-size: cover;
     display: block;
@@ -5760,7 +5760,7 @@ body * img::-webkit-selection {
 .info__another-arrow {
     width: 140px;
     height: 22px;
-    background: image_url("img/icon/arrow-long.svg") left center no-repeat;
+    background:  image_url("img/icon/arrow-long.svg") left center no-repeat;
     -webkit-background-size: 100% auto;
     background-size: 100% auto;
     text-align: center;
@@ -6239,7 +6239,7 @@ input[type=radio].deadline-radio:checked + label.deadline-label:before {
 .payment__bank-card {
     height: 210px;
     margin: 44px 0 0;
-    background: url("img/content/bank-card@2x.jpg") -16px 0 no-repeat;
+    background:  image_url("img/content/bank-card@2x.jpg") -16px 0 no-repeat;
     -webkit-background-size: 290px auto;
     background-size: 290px auto
 }
@@ -6506,13 +6506,13 @@ input[type=radio].deadline-radio:checked + label.deadline-label:before {
 }
 
 .method-list__link_visa {
-    background: image_url("img/icon/visa.png") no-repeat 13px 9px;
+    background:  image_url("img/icon/visa.png") no-repeat 13px 9px;
     -webkit-background-size: 75% auto;
     background-size: 75% auto
 }
 
 .method-list__link_paypal {
-    background: image_url("img/icon/paypall.png") no-repeat 14px 5px
+    background:  image_url("img/icon/paypall.png") no-repeat 14px 5px
 }
 
 .method-list__link_paypal, .method-list__link_west {
@@ -6521,7 +6521,7 @@ input[type=radio].deadline-radio:checked + label.deadline-label:before {
 }
 
 .method-list__link_west {
-    background: image_url("img/icon/western.png") no-repeat 13px 6px
+    background:  image_url("img/icon/western.png") no-repeat 13px 6px
 }
 
 .method-list__link_lh {
@@ -6807,7 +6807,7 @@ input[type=radio].deadline-radio:checked + label.deadline-label:before {
 .property__next-arrow {
     width: 103px;
     height: 23px;
-    background: image_url("img/icon/arrow-long.svg") left center no-repeat;
+    background:  image_url("img/icon/arrow-long.svg") left center no-repeat;
     -webkit-background-size: 100% auto;
     background-size: 100% auto;
     vertical-align: middle;
@@ -7131,7 +7131,7 @@ input[type=radio].deadline-radio:checked + label.deadline-label:before {
 }
 
 .share__fb-icon {
-    background: image_url("img/icon/facebook.svg") center center no-repeat;
+    background:  image_url("img/icon/facebook.svg") center center no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
     width: 15px;
@@ -7408,7 +7408,7 @@ input[type=radio].deadline-radio:checked + label.deadline-label:before {
 }
 
 .breadcrumb__arrow {
-    background: image_url("img/icon/arrow.svg") center 0 no-repeat;
+    background:  image_url("img/icon/arrow.svg") center 0 no-repeat;
     -webkit-background-size: 60% 100%;
     background-size: 60% 100%;
     width: 22px;
@@ -7603,7 +7603,7 @@ input[type=radio].deadline-radio:checked + label.deadline-label:before {
     width: 92%;
     height: 100px;
     margin-left: 4%;
-    background-image: url("img/texture/Spring-2_spam-1.jpg")
+    background-image:  url("img/texture/Spring-2_spam-1.jpg")
 }
 
 .element-2 {
@@ -7612,7 +7612,7 @@ input[type=radio].deadline-radio:checked + label.deadline-label:before {
     width: 85.8%;
     height: 68px;
     margin: -84px 0 0 7.1%;
-    background-image: url("img/texture/Spring-2_spam-2blur(2).jpg")
+    background-image:  url("img/texture/Spring-2_spam-2blur(2).jpg")
 }
 
 .field-1 {
@@ -7693,7 +7693,7 @@ input[type=radio].deadline-radio:checked + label.deadline-label:before {
 }
 a.small_cart {
   vertical-align: bottom;
-  background: image_url("img/icon/small_cart.png") no-repeat;
+  background:  image_url("img/icon/small_cart.png") no-repeat;
   height: 30px;
   width: 30px;
   display: inline-block;
