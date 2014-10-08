@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :payment_notifications
+
   resources :deliveries
 
   resources :orders do
@@ -18,6 +20,7 @@ Rails.application.routes.draw do
     member do
     delete :cancel
     post :put_back
+    post :plus_one
       end
   end
 

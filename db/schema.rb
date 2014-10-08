@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140827140528) do
+ActiveRecord::Schema.define(version: 20140902201749) do
 
   create_table "active_admin_comments", force: true do |t|
     t.string   "namespace"
@@ -87,16 +87,6 @@ ActiveRecord::Schema.define(version: 20140827140528) do
     t.integer "variant_id"
   end
 
-  create_table "images", force: true do |t|
-    t.datetime "created_at"
-    t.datetime "updated_at"
-    t.string   "picture_file_name"
-    t.string   "picture_content_type"
-    t.integer  "picture_file_size"
-    t.datetime "picture_updated_at"
-    t.integer  "variant_id"
-  end
-
   create_table "line_items", force: true do |t|
     t.string   "units"
     t.integer  "size"
@@ -139,6 +129,16 @@ ActiveRecord::Schema.define(version: 20140827140528) do
     t.datetime "updated_at"
     t.integer  "user_id"
     t.string   "status"
+  end
+
+  create_table "payment_notifications", force: true do |t|
+    t.text     "params"
+    t.integer  "order_id"
+    t.string   "status"
+    t.string   "transaction_id"
+    t.string   "create"
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
   create_table "payments", force: true do |t|
@@ -212,6 +212,7 @@ ActiveRecord::Schema.define(version: 20140827140528) do
     t.string   "role"
     t.string   "provider"
     t.string   "uid"
+    t.string   "name"
   end
 
   add_index "users", ["email"], name: "index_users_on_email", unique: true

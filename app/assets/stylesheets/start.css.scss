@@ -3065,7 +3065,7 @@ body * img::-webkit-selection {
 }
 
 .item-main {
-    width: 80%;
+    width: 100%;
     margin: auto
 }
 
@@ -3652,7 +3652,8 @@ body * img::-webkit-selection {
 
 .item__img-wrap img {
     border: 1px solid #f3f3f3;
-    position: relative
+    position: relative;
+    max-height: 368px;
 }
 
 .item__img-wrap_bb_none {
@@ -3868,7 +3869,9 @@ body * img::-webkit-selection {
 
 .box_bt {
     border-top: 15px solid #d8e4da;
-    border-top-left-radius: 15px 15px
+    border-top-left-radius: 15px 15px;
+    max-width: 557px;
+
 }
 
 .box__inner {
@@ -4149,9 +4152,9 @@ body * img::-webkit-selection {
 }
 
 .order__price .fa-usd {
-    font-size: 17px;
+    font-size: 26px;
     position: relative;
-    top: -10px
+    top: -2px
 }
 
 .order__price_close {
@@ -4164,13 +4167,16 @@ body * img::-webkit-selection {
 }
 
 .order {
-    width: 970px
+    max-width: 970px;
+    margin: 0 auto 30px;
+
 }
 
 .order__left {
-    width: 273px;
-    vertical-align: bottom;
-    position: relative
+  max-width: 273px;
+  vertical-align: bottom;
+  position: relative;
+  width: 24%;
 }
 
 .order__left_ml_8 {
@@ -4743,9 +4749,9 @@ body * img::-webkit-selection {
 }
 
 .order-info__price .fa-usd {
-    font-size: 16px;
+    font-size: 26px;
     position: relative;
-    top: -8px
+    top: -2px
 }
 
 .order-info__price_lh {
@@ -4896,7 +4902,12 @@ body * img::-webkit-selection {
 }
 
 .processing-order__wrap {
-    margin: 35px 0 0 450px
+//    margin: 35px 0 0 450px
+  margin: auto;
+  max-width: 960px;
+}
+.mar_auto{
+  margin: 30px auto 30px;
 }
 
 .option {
@@ -5302,14 +5313,14 @@ body * img::-webkit-selection {
 
 .option__measure-comment-field {
     position: absolute;
-    right: -127px;
+    right: -150px;
     top: 4px;
     font-family: 'trebuchet_msitalic'
 }
 
 .option__measure-depicted {
     position: absolute;
-    right: -115px;
+    right: -130px;
     font-size: 13px;
     font-family: 'trebuchet_msitalic';
     background: #cac7c0;
@@ -5728,7 +5739,8 @@ body * img::-webkit-selection {
 }
 
 .option-wrap {
-    margin-left: 194px
+  margin: auto;
+  max-width: 1000px;
 }
 
 .option-total {
@@ -6216,7 +6228,8 @@ input[type=radio].deadline-radio:checked + label.deadline-label:before {
 }
 
 .delivery-wrap {
-    margin: 0 0 0 174px
+    margin: auto;
+  max-width: 960px;
 }
 
 .delivery-top {
@@ -6521,7 +6534,7 @@ input[type=radio].deadline-radio:checked + label.deadline-label:before {
 }
 
 .method-list__link_west {
-    background: url("/assets/img/icon/western.png") no-repeat 13px 6px
+    background: url("/assets/img/icon/western.png") no-repeat 3px 4px
 }
 
 .method-list__link_lh {
@@ -6547,8 +6560,10 @@ input[type=radio].deadline-radio:checked + label.deadline-label:before {
 }
 
 .payment-wrap {
-    margin: 0 0 0 207px;
-    font-family: 'trebuchet_msregular'
+    margin: auto;
+    font-family: 'trebuchet_msregular';
+    max-width: 960px;
+    padding: 0 20px;
 }
 
 .property__large-img {
@@ -6574,12 +6589,13 @@ input[type=radio].deadline-radio:checked + label.deadline-label:before {
 
 .property__item-view {
     float: left;
-    width: 502px
+    max-width: 502px
 }
 
 .property__img-wrap {
-    width: 493px;
-    position: relative
+    width: 380px;
+    position: relative;
+  text-align: center;
 }
 
 .property__pailletes {
@@ -6733,7 +6749,7 @@ input[type=radio].deadline-radio:checked + label.deadline-label:before {
 
 .property__application-wrap {
     position: absolute;
-    left: -125px;
+    left: -24px;
     bottom: 197px
 }
 
@@ -6743,13 +6759,13 @@ input[type=radio].deadline-radio:checked + label.deadline-label:before {
     border-bottom-right-radius: 100%;
     border-bottom-left-radius: 40%;
     -webkit-transform: rotate(17deg) scale(2);
-    -ms-transform: rotate(17deg) scale(2);
-    transform: rotate(17deg) scale(2);
-    width: 91px;
-    height: 33px;
-    position: absolute;
-    top: 19px;
-    left: 140px
+    -ms-transform: rotate(29deg) scale(2);
+    transform: rotate(29deg) scale(2);
+  width: 79px;
+  height: 33px;
+  position: absolute;
+  top: 26px;
+  left: 93px;
 }
 
 .property__application {
@@ -6774,7 +6790,9 @@ input[type=radio].deadline-radio:checked + label.deadline-label:before {
 }
 
 .property__top {
-    margin: -7px 0 27px 118px
+    margin: 0 auto 30px;
+  text-align: center;
+
 }
 
 .property__stock-link {
@@ -6805,28 +6823,30 @@ input[type=radio].deadline-radio:checked + label.deadline-label:before {
 }
 
 .property__next-arrow {
-    width: 103px;
+    width: 142px;
     height: 23px;
     background: url("/assets/img/icon/arrow-long.svg") left center no-repeat;
     -webkit-background-size: 100% auto;
     background-size: 100% auto;
     vertical-align: middle;
     margin: 0 0 3px;
-    padding: 0 0 0 21px
+    padding: 0;
 }
 
 .property__item-desc {
     font-size: 18px;
-    width: 720px;
+    max-width: 720px;
     font-weight: 700;
-    margin: 26px 0 0 150px;
-    line-height: 1.4
+    margin: 26px auto 0;
+    line-height: 1.4;
 }
 
 .property__example {
-    margin: 45px 0 0 150px;
+    margin: 45px auto 0;
     font-size: 0;
-    position: relative
+    position: relative;
+  max-width: 720px;
+
 }
 
 .property__example-wrap {
@@ -6834,9 +6854,10 @@ input[type=radio].deadline-radio:checked + label.deadline-label:before {
 }
 
 .property__include {
-    margin: 18px 0 0 150px;
+    margin: 18px auto 0;
     font-family: 'trebuchet_msitalic';
-    font-size: 13px
+    font-size: 13px;
+  max-width: 720px;
 }
 
 .property__include-link {
@@ -6900,7 +6921,6 @@ input[type=radio].deadline-radio:checked + label.deadline-label:before {
 .color-list__link {
     font-size: 15px;
     vertical-align: top;
-    width: 150px;
     text-decoration: none
 }
 
@@ -7697,4 +7717,12 @@ a.small_cart {
   height: 30px;
   width: 30px;
   display: inline-block;
+}
+.order-info__img-link{
+  display: inline-block;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  text-align: center;
 }

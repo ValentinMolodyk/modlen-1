@@ -2,7 +2,7 @@
 
 <div class="payment-top">
 
-  <div class="breadcrumb-wrap breadcrumb-wrap_ml_187 breadcrumb-wrap_w_646 left">
+  <div class="breadcrumb-wrap breadcrumb-wrap_ml_187 left">
     <%= render partial: 'bread_crumbs', locals: {page: 'checkout'} %>
   </div>
     <%= render partial: 'currency', locals: {currency: @currency.code, item:''} %>
@@ -19,7 +19,7 @@
   </div>
 
   <div class="order-info order-info_left">
-    <div class="box box_bt" style="width: 557px">
+    <div class="box box_bt">
       <div class="order-info__inner order-info__inner_pt">
 
         <div class="order-info__your-order total__row_mt_15">
@@ -124,6 +124,7 @@
 
       <div  class="payment__card payment__card_second">
         <h2>{TAb2}</h2>
+        <%= link_to 'buy me', @order.paypal_url('http://google.com', payment_notifications_url, @currency) %>
         <p>Lore Ipsum, take this place and show, what do you want:)</p>
         <p>Lore Ipsum, take this place and show, what do you want:)</p>
       </div>
