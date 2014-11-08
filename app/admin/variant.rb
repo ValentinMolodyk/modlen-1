@@ -1,7 +1,7 @@
 ActiveAdmin.register Variant do
   menu parent: 'Products'
-  permit_params :name, :stock, :product_id, :color_id, :images, colors_attributes: [:name, :id], color_ids: [:id],
-                pictures_attributes: [:order, :id, :image, :_destroy]
+  permit_params :name, :stock, :product_id, :color_id, :images, :show_on_main, colors_attributes: [:name, :id], color_ids: [:id],
+                pictures_attributes: [:order, :id, :main_gallery, :image, :_destroy]
   # See permitted parameters documentation:
   # https://github.com/gregbell/active_admin/blob/master/docs/2-resource-customization.md#setting-up-strong-parameters
   #
@@ -17,9 +17,10 @@ ActiveAdmin.register Variant do
   form html: { multipart: true } do |f|
     f.inputs do
       f.input :name
-      f.input :color, label: 'Main color'
+      f.input :color, label: 'Main color', :include_blank => false
       f.input :stock, as: :select, collection: Product::STOCK_TYPES, :include_blank => false
-      f.input :product
+      f.input :product, :include_blank => false
+      f.input :show_on_main
     end
     f.inputs 'Colors' do
       f.input :colors, as: :check_boxes
@@ -27,6 +28,7 @@ ActiveAdmin.register Variant do
     f.inputs 'Images' do
     f.has_many :pictures, :sortable => :order, allow_destroy: true, html: {multipatr: true} do |p|
       p.input :image, hint: p.template.image_tag(p.object.image.url(:thumb))
+      p.input :main_gallery
       p.input :order
     end
     end
