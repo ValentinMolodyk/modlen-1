@@ -173,7 +173,7 @@ ActiveRecord::Schema.define(version: 20141108153152) do
     t.integer  "image_file_size"
     t.datetime "image_updated_at"
     t.integer  "order",              default: 0
-    t.boolean  "main_gallery"
+    t.boolean  "main_gallery",       default: false
   end
 
   create_table "products", force: true do |t|
