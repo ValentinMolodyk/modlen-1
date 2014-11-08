@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="66241af0-d988-4609-886b-3bb738ba33b0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20141108153152_add_main_to_pictures.rb" afterPath="$PROJECT_DIR$/db/migrate/20141108153152_add_main_to_pictures.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/variants/_photos.html.erb" afterPath="$PROJECT_DIR$/app/views/variants/_photos.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/variants/show.html.erb" afterPath="$PROJECT_DIR$/app/views/variants/show.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/admin/product.rb" afterPath="$PROJECT_DIR$/app/admin/product.rb" />
     </list>
     <ignored path="modlenRails.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,15 +25,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="show.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/variants/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.60556257" vertical-offset="1891" max-vertical-offset="2760">
+            <state vertical-scroll-proportion="-19.958334" vertical-offset="1891" max-vertical-offset="2760">
               <caret line="158" column="7" selection-start-line="158" selection-start-column="7" selection-end-line="158" selection-end-column="7" />
               <folding>
                 <element signature="n#style#0;n#i#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="product.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/admin/product.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.7427536" vertical-offset="720" max-vertical-offset="2010">
+              <caret line="89" column="9" selection-start-line="89" selection-start-column="9" selection-end-line="89" selection-end-column="9" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -103,13 +110,13 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/start.css.scss" />
         <option value="$PROJECT_DIR$/db/migrate/20141108151107_add_show_on_main_to_variant.rb" />
         <option value="$PROJECT_DIR$/app/admin/variant.rb" />
-        <option value="$PROJECT_DIR$/app/admin/product.rb" />
         <option value="$PROJECT_DIR$/app/models/variant.rb" />
         <option value="$PROJECT_DIR$/app/controllers/products_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/products/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/variants/_photos.html.erb" />
         <option value="$PROJECT_DIR$/db/migrate/20141108153152_add_main_to_pictures.rb" />
         <option value="$PROJECT_DIR$/app/views/variants/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/admin/product.rb" />
       </list>
     </option>
   </component>
@@ -176,12 +183,22 @@
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
+              <option name="myItemId" value="modlenRails" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modlen" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="variants" />
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -199,21 +216,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modlenRails" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modlen" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
+              <option name="myItemId" value="admin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -591,14 +594,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/admin/product.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18478261" vertical-offset="942" max-vertical-offset="1890">
-          <caret line="73" column="14" selection-start-line="73" selection-start-column="14" selection-end-line="73" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/admin/variant.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4746377" vertical-offset="762" max-vertical-offset="1935">
@@ -655,14 +650,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/product.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="828">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/variants/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.60556257" vertical-offset="1891" max-vertical-offset="2760">
+        <state vertical-scroll-proportion="-19.958334" vertical-offset="1891" max-vertical-offset="2760">
           <caret line="158" column="7" selection-start-line="158" selection-start-column="7" selection-end-line="158" selection-end-column="7" />
           <folding>
             <element signature="n#style#0;n#i#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/admin/product.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7427536" vertical-offset="720" max-vertical-offset="2010">
+          <caret line="89" column="9" selection-start-line="89" selection-start-column="9" selection-end-line="89" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>

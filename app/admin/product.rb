@@ -78,6 +78,10 @@ ActiveAdmin.register Product do
   controller do
     def create
     create! do |format|
+      @product.texts.each do |text|
+        text.product_id = @product.name
+        text.save!
+      end
       @product.id = @product.name
       @product.save
       format.html {redirect_to new_admin_variant_url({product_id: @product.id})}
@@ -89,6 +93,10 @@ ActiveAdmin.register Product do
           @product.variants.each do |var|
             var.product_id = @product.name
             var.save!
+          end
+          @product.texts.each do |text|
+            text.product_id = @product.name
+            text.save!
           end
           @product.id = @product.name
           @product.save
