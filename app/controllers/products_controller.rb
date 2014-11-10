@@ -4,8 +4,7 @@ class ProductsController < InheritedResources::Base
   load_and_authorize_resource
 
   def index
-    @variants = Variant.all.where(show_on_main: true)
-    @products = Product.all.where(public: true)
+    @variants = Variant.joins(:product).where('show_on_main' => true, 'products.public' => true)
   end
 
 end
