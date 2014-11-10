@@ -1,6 +1,14 @@
 class OrdersController < InheritedResources::Base
   before_action :destroy_temp_items
+
   def show
+  end
+  def index
+    if current_user
+      @orders = current_user.orders
+    else
+      @orders = [@order]
+    end
   end
   def change_currency
     session[:currency] = params[:cur]

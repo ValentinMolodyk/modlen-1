@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140827140528) do
+ActiveRecord::Schema.define(version: 20141108153152) do
 
   create_table "active_admin_comments", force: true do |t|
     t.string   "namespace"
@@ -52,7 +52,15 @@ ActiveRecord::Schema.define(version: 20140827140528) do
   create_table "currencies", force: true do |t|
     t.string   "name"
     t.string   "code"
-    t.decimal  "rate"
+    t.decimal  "rate",       precision: 4, scale: 3
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "deadline_sewings", force: true do |t|
+    t.string   "deadline"
+    t.integer  "price"
+    t.integer  "delivery_option_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -77,6 +85,12 @@ ActiveRecord::Schema.define(version: 20140827140528) do
     t.integer  "price"
   end
 
+  create_table "delivery_options", force: true do |t|
+    t.integer  "git_box"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
   create_table "guests", force: true do |t|
     t.datetime "created_at"
     t.datetime "updated_at"
@@ -85,16 +99,6 @@ ActiveRecord::Schema.define(version: 20140827140528) do
   create_table "guests_variants", id: false, force: true do |t|
     t.integer "guest_id"
     t.integer "variant_id"
-  end
-
-  create_table "images", force: true do |t|
-    t.datetime "created_at"
-    t.datetime "updated_at"
-    t.string   "picture_file_name"
-    t.string   "picture_content_type"
-    t.integer  "picture_file_size"
-    t.datetime "picture_updated_at"
-    t.integer  "variant_id"
   end
 
   create_table "line_items", force: true do |t|
@@ -141,6 +145,16 @@ ActiveRecord::Schema.define(version: 20140827140528) do
     t.string   "status"
   end
 
+  create_table "payment_notifications", force: true do |t|
+    t.text     "params"
+    t.integer  "order_id"
+    t.string   "status"
+    t.string   "transaction_id"
+    t.string   "create"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
   create_table "payments", force: true do |t|
     t.string   "type"
     t.string   "status"
@@ -159,6 +173,7 @@ ActiveRecord::Schema.define(version: 20140827140528) do
     t.integer  "image_file_size"
     t.datetime "image_updated_at"
     t.integer  "order",              default: 0
+    t.boolean  "main_gallery",       default: false
   end
 
   create_table "products", force: true do |t|
@@ -184,6 +199,14 @@ ActiveRecord::Schema.define(version: 20140827140528) do
     t.boolean  "collar_present"
     t.boolean  "skirt_present"
     t.boolean  "sleeves_present"
+  end
+
+  create_table "speeds", force: true do |t|
+    t.integer  "days"
+    t.integer  "price"
+    t.integer  "delivery_option_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
   create_table "texts", force: true do |t|
@@ -212,6 +235,7 @@ ActiveRecord::Schema.define(version: 20140827140528) do
     t.string   "role"
     t.string   "provider"
     t.string   "uid"
+    t.string   "name"
   end
 
   add_index "users", ["email"], name: "index_users_on_email", unique: true
@@ -231,6 +255,7 @@ ActiveRecord::Schema.define(version: 20140827140528) do
     t.integer  "color_id"
     t.boolean  "default"
     t.string   "stock"
+    t.boolean  "show_on_main"
   end
 
 end

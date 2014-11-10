@@ -1,4 +1,9 @@
 Rails.application.routes.draw do
+
+  post 'users/update'
+
+  resources :payment_notifications
+
   resources :deliveries
 
   resources :orders do
@@ -6,6 +11,7 @@ Rails.application.routes.draw do
       get :checkout
     end
     collection do
+      get :thanks
       post :change_currency
     end
   end
@@ -18,6 +24,7 @@ Rails.application.routes.draw do
     member do
     delete :cancel
     post :put_back
+    post :plus_one
       end
   end
 
@@ -47,6 +54,7 @@ end
   # You can have the root of your site routed with "root"
    root 'products#index'
 
+   get '*unmatched_route', :to => 'application#render_not_found'
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 

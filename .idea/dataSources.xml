@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="1208014732">
+  <component name="DataSourceManagerImpl" format="xml" hash="2104198622">
     <data-source source="LOCAL" name="Rails modlenRails: development" uuid="af43f0ee-d47a-4a66-9198-ba1a49709202">
       <driver-ref>sqlite.xerial</driver-ref>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:D:\www\modlenRails\db\development.sqlite3</jdbc-url>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/db/development.sqlite3</jdbc-url>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails modlenRails: production" uuid="5b14df6c-2158-4eef-8f0d-0f4c95962d57">
+      <driver-ref>mysql</driver-ref>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1/modlen_db</jdbc-url>
+      <user-name>root</user-name>
+      <user-password>dfc7dfc5dfcedfc6dfcfdfc4dff9dffbdfe6dffadfcbdfd9dfd9</user-password>
       <libraries />
     </data-source>
   </component>

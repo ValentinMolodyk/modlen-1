@@ -2,7 +2,7 @@ ActiveAdmin.register Product do
 
   permit_params  :name, :price, :old_price, :description, :short_desc, :crystal_type, :crystal_amount,
                  :sleeves, :sleeves_price, :skirt, :skirt_price, :collar, :collar_price, :stock_for_sale, :title, :public, :images,
-                 :sleeves_present, :collar_present, :skirt_present,
+                 :sleeves_present, :collar_present, :skirt_present, :id,
                  texts_attributes: [:id, :language, :description, :short_desc, :title, :_destroy]
   # See permitted parameters documentation:
   # https://github.com/gregbell/active_admin/blob/master/docs/2-resource-customization.md#setting-up-strong-parameters
@@ -29,17 +29,23 @@ ActiveAdmin.register Product do
      f.input :crystal_amount, value: 1000
    end
    f.inputs 'sleeves' do
+=begin
      f.input :sleeves
+=end
      f.input :sleeves_present
      f.input :sleeves_price
   end
   f.inputs 'skirt' do
+=begin
      f.input :skirt
+=end
      f.input :skirt_present
      f.input :skirt_price
   end
   f.inputs 'collar' do
+=begin
      f.input :collar
+=end
      f.input :collar_present
      f.input :collar_price
    end
@@ -72,13 +78,34 @@ ActiveAdmin.register Product do
   controller do
     def create
     create! do |format|
+      @product.texts.each do |text|
+        text.product_id = @product.name
+        text.save!
+      end
+      @product.id = @product.name
+      @product.save
       format.html {redirect_to new_admin_variant_url({product_id: @product.id})}
     end
     end
     def update
       update! do |format|
+          if @product.id != @product.name.to_i
+          @product.variants.each do |var|
+            var.product_id = @product.name
+            var.save!
+          end
+          @product.texts.each do |text|
+            text.product_id = @product.name
+            text.save!
+          end
+          @product.id = @product.name
+          @product.save
+          end
+
         if params[:commit].include? 'variant'
           format.html {redirect_to new_admin_variant_url({product_id: @product.id})}
+        else
+          format.html {redirect_to admin_product_url(@product)}
         end
       end
     end
@@ -96,4 +123,7 @@ def init_defaults
   @product.crystal_type = Product::CRYSTAL_TYPES[0]
   @product.stock_for_sale = Product::STOCK_TYPES[0]
   @product.texts.new({language: 'en'})
+  @product.collar_present = true
+  @product.skirt_present = true
+  @product.sleeves_present = true
 end

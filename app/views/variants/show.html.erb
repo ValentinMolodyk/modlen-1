@@ -141,14 +141,13 @@
 
 </div>
 
-
+<%if @variant.pictures.where(main_gallery: false).length > 0%>
 <div class="preview">
   <div class="preview__title">More different:</div>
   <div class="preview__top">
-    <%@product.variants.each do |var|
-      var.pictures.each do |pic| %>
+    <%@variant.pictures.where(main_gallery: false).each do |pic| %>
     <div class="preview__img-wrap"><div class="preview__link-wrap"><a class="preview__img-link " href="#"><img src="<%=image_url pic.image.url(:thumb)%>" alt=""/></a></div></div>
-    <%end;end%>
+    <%end%>
 <!--    <div class="preview__img-wrap"><div class="preview__link-wrap active"><a class="preview__img-link " href="#"><img src="../../img/content/item-leotard.jpg" alt=""/></a></div></div>-->
   </div>
 
@@ -157,7 +156,7 @@
     <div class="preview__scroll"></div>
   </div>
 </div>
-
+<%end%>
 <div class="happy">
   <div class="happy__left">
     <h4 class="happy__title">Happy Customer</h4>
